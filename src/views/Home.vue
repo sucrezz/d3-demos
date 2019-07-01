@@ -111,6 +111,7 @@ header {
     flex: 1;
     font-size: 2rem;
     font-weight: 600;
+    text-align: center;
   }
 }
 .content-box {
@@ -121,14 +122,14 @@ header {
   nav {
     width: 6.5rem;
     height: 100%;
-    background: #545c64;
     position: relative;
     .el-menu--collapse {
-      width: 100%;
       box-sizing: border-box;
+      height: 100%;
     }
     .el-menu-vertical-demo:not(.el-menu--collapse) {
       width: 20rem;
+      height: 100%;
     }
     &.unflod {
       width: 6.5rem;
