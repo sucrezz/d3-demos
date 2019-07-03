@@ -11,7 +11,19 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
+      children: [
+        {
+          path: "*",
+          name: "Chart",
+          component: resolve => require(["./views/index/index.vue"], resolve)
+        },
+        {
+          path: "/chart",
+          name: "Chart",
+          component: resolve => require(["./views/charts/chart.vue"], resolve)
+        }
+      ]
     }
   ]
 });
