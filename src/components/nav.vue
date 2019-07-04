@@ -97,6 +97,10 @@ nav {
     height: 3rem;
     font-size: 3rem;
     cursor: pointer;
+    color: lightyellow;
+  }
+  .el-menu {
+    border-right-color: rgba(0, 0, 0, 0.3);
   }
 }
 </style>

@@ -68,7 +68,6 @@ header {
     flex: 1;
     height: 100%;
     box-sizing: border-box;
-    padding-left: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
   }
