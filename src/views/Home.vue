@@ -69,7 +69,7 @@ header {
     height: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
 }
 </style>
